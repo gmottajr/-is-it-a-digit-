@@ -15,3 +15,17 @@ Your task is to implement the following function:
 ```python
 def is_digit(s):
     # Your code goes here
+
+## Setup :wrench:
+
+    Fork or clone this repository to your local environment.
+    Open the project in your preferred IDE or text editor.
+    Implement the is_digit function in a Python file.
+
+## Testing :test_tube:
+
+Please ensure you write unit tests to verify your function. Cover edge cases and aim for your code to pass all tests.
+
+## Contribution :handshake:
+
+Contributions are highly appreciated! Feel free to fork this repo and submit a pull request with your enhancements or fixes. Make sure to follow the Python coding standards and write tests for new features.
