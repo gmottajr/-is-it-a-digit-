@@ -10,12 +10,8 @@ Welcome to the Python String Digit Check Challenge! This challenge involves impl
 - Basic understanding of Python string manipulation
 
 ## Implementation :gear:
-Your task is to implement the following function:
-
-```python
-def is_digit(s):
-    // Your code goes here
-
+Your task is to implement the following function: is_digit(s):
+   
 ## Setup :wrench:
 
     Fork or clone this repository to your local environment.
