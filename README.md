@@ -14,7 +14,7 @@ Your task is to implement the following function:
 
 ```python
 def is_digit(s):
-    # Your code goes here
+    // Your code goes here
 
 ## Setup :wrench:
 
