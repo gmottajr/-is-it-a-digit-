@@ -1,5 +1,5 @@
 import pytest
-from CodeChallengesModule import u_n_x
+from CodeChallengesModule import u_n_x, SeriesSolver
 
 test_data = [
     (3, 2, 36),
@@ -21,3 +21,12 @@ class TestSeriesFunction():
     def test_u_n_x_small_values(self, n, x, expected_result):
         # Test the function with small values
         assert u_n_x(n, x) == expected_result  # Replace 'expected_value' with the actual expected result
+
+    @pytest.mark.parametrize("m, expected_result", [
+        (2.0, 0.5),
+        (8.0, 0.7034648345913732)
+    ])
+    def test_series_solver_solve(self, m, expected_result):
+        x = SeriesSolver.solve(2.0)
+        assert x == expected_result
+
